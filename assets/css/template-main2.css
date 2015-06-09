@@ -1142,3 +1142,254 @@ div#footer-body {
     font-weight: normal;
     color: #E7E7E7;
 }
+
+
+
+
+
+/* another block */
+
+a {
+    color: #f46b2e;
+    text-decoration: none;
+}
+
+body {font-family: Open Sans; font-size:14px; font-weight: normal; color:#474747;background-color: #faf6f2;}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .entry-title, .entry-title a {color: #474747;text-decoration: none;}/* Your CSS Code */
+
+small .fa{color: #f46b2e;
+    margin-right: 5px;}
+
+i.fa.fa-comments,i.fa.fa-user {
+    margin-left: 10px;
+}
+.read-more a{color:#fff!important;text-decoration: none!important;}
+span.like-link:before {
+    display: inline-block;
+    color: #ececec;
+    content: '.';
+    text-shadow: 0 7px 0 #ececec, 0 -7px 0 #ececec;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+small, .small {
+    font-size: 90%;}
+
+
+/*---------RUARKS---------- */
+
+body{
+
+    background-image: url(http://4.bp.blogspot.com/-ZiEpBGWo-yA/VJbgvA0GyvI/AAAAAAAAUWc/Oo8-aJBsObA/s1600/bg_ruark3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-search .input-group {
+    width: 128px;
+    max-width: 100%;
+    float: right;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.entry-image{
+    -webkit-border-top-left-radius:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.navbar.navbar-default {
+    background-image: url(http://4.bp.blogspot.com/-3V85zfKh6EM/VH6FNcCp_8I/AAAAAAAAULs/YNJNqfce-fM/s320/png_dark.png);
+    background-color: #3f3f3f;
+    font-family: 'Open Sans', serif;
+    margin-bottom: 0;
+    border-top: 0px solid #3a3a3a;
+    font-weight: 500;
+    -moz-box-shadow:    inset 0 0 175px 67px #000000;
+    -webkit-box-shadow: inset 0 0 175px 67px #000000;
+    box-shadow:         inset 0 0 175px 67px #000000;
+}
+
+#colophon{
+    background-image: url(http://4.bp.blogspot.com/-3V85zfKh6EM/VH6FNcCp_8I/AAAAAAAAULs/YNJNqfce-fM/s320/png_dark.png);
+    -moz-box-shadow:    inset 0 0 175px 67px #000000;
+    -webkit-box-shadow: inset 0 0 175px 67px #000000;
+    box-shadow:         inset 0 0 175px 67px #000000;
+
+}
+.widget.Header{
+    display:none;
+}
+
+.header-search .input-group{
+    width:100%;
+}
+
+#footer, .container1{
+    width:100%;}
+#footer{background-color:#080808;}
+
+.social-icons a:hover{background:#E43737;}
+
+div#content{
+    margin-top:0px;
+}
+
+@media (max-width: 767px) {
+
+
+    .share-story{text-align:center;}
+    .share-story li{display:inline;border:none; margin-top:0px; line-height:35px;}
+    ul.share-story li{margin:0px;}
+    .share-story-container{margin: 0px 0px; -15px;}
+    .pull-right.share-story-container a{padding:0px 3px;}
+
+    #footer p{font-size:9px;}
+    #google_translate_element{padding:0px 20px 0px;}
+    .goog-te-combo{width:100%;}
+    .widget.FollowByEmail table{width:100%;}
+    .follow-by-email-inner{padding:0px 20px 0px;}
+    #Text1 .widget-content{padding:0px 20px 0px;}
+    .contact-form-name, .contact-form-email, .contact-form-email-message{max-width:100%;}
+    .contact-form-widget{padding-right:40px; max-width:90%;}
+
+    .header-social{display:none;}
+    .navbar.navbar-default{padding-top:20px;}
+    .movinglight{display:none;}
+    div#content{
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+    .header-search form{
+        position: absolute;
+        top:17px;
+        right:25px;
+    }
+
+    .header-search .input-group{
+        width:50%;
+    }
+
+    .header-social, .header-logo, .header-search{
+        height:0px;
+    }
+
+    .camera_caption a {
+        font:bold 18px Arial;}
+
+}
+
+.navbar-default .navbar-nav > li > a{
+                                             line-height:0px;
+                                         }
+.main-menu-wrapper{height:auto; background-color:#080808;}
+
+.header-social{margin-top:0px;}
+.header-logo{margin-top:0px; margin-bottom:0px;}
+.site-navigation-inner{padding-bottom:0px; padding-top:0px;}
+
+.sidebar li a{display:inline;}
+.PopularPosts .item-thumbnail{margin-bottom:40px;}
+.item-snippet{font-size:13px;}
+.movinglight{position:absolute; top:-75px; left:0px;
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:top;
+}
+.logo_image{position:relative; z-index:10;}
+
+.box{
+
+
+}
+
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-3deg)}
+    50%{-moz-transform:rotate(3deg)}
+    100%{-moz-transform:rotate(-3deg)}
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-3deg)}
+    50%{-webkit-transform:rotate(3deg)}
+    100%{-webkit-transform:rotate(-3deg)}
+}
+
+
+.navbar-default .navbar-toggle{
+    padding: 18px 46px 16px;
+    position:relative;
+}
+
+.navbar-header .btn{
+    text-align:left;
+}
+
+.navbar-default .navbar-toggle .icon-toggle{
+    position:absolute;
+    left:18px;
+    top: 20px;
+}
+
+@media (min-width:1200px){
+    .span9{width:610px; margin-left:15px;}
+    #side-bar{width:300px;}
+}
+.post img{
+    text-align:left;
+}
+
+#sidebar .Label .widget-content, #sidebar .Followers .widget-content, #sidebar .BlogArchive .widget-content, #sidebar .Stats .widget-content, #sidebar .HTML .widget-content, #sidebar .HTML .widget-item-control {
+    margin-left: 7.5%;
+    margin-right: 7.5%
+}
+
+#primary, .site-footer .container{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.fadeFromBottom div{
+    height:300px;
+    width:950px;
+    position:relative;
+    bottom:130px;
+
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+
+    /* Netscape */
+    -moz-opacity: 0;
+
+    /* Safari 1.x */
+    -khtml-opacity: 0;
+
+    /* Good browsers */
+    opacity: 0;
+
+}
+
+.camera_caption a{
+    padding:250px;
+    width:100%;
+}
+
+.camera_caption{
+    margin-left:0px;
+    bottom:130px;}
+#side-bar{border-radius:0px;}
+
+.site-footer .HTML .widget-content, .site-footer .ContactForm .contact-form-widget, .site-footer .ContactForm .widget-item-control {
+    margin-left:20px;
+}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address{margin-top:8px;}
