@@ -113,7 +113,7 @@
 .camera_pag_ul .thumb_arrow{border-top-color:#fff}
 .camera_prevThumbs,.camera_nextThumbs,.camera_prev,.camera_next,.camera_commands,.camera_thumbs_cont{background:#fff;background:rgba(216,216,216,0.85)}
 .camera_wrap .camera_pag .camera_pag_ul li{background:#fff;box-shadow:0 1px 3px #c3c3c3; -moz-box-shadow:0 1px 3px #c3c3c3; -webkit-box-shadow:0 1px 3px #c3c3c3}
-.camera_thumbs_cont ul li > img{border: 1px solid #000}
+.camera_thumbs_cont ul li > img{border-color: 1px solid #000}
 /*ORANGE SKIN*/
 .camera_orange_skin .camera_prevThumbs div {
     background-position: -160px -920px;
