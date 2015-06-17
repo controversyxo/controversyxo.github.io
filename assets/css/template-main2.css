@@ -1241,14 +1241,18 @@ div#content{
     margin-top:0px;
 }
 
+/* JUNE162015 UPDATES */
 @media (max-width: 767px) {
 
 
     .share-story{text-align:center;}
-    .share-story li{display:inline;border:none; margin-top:0px; line-height:35px;}
+    .share-story li{display:inline;border:none; margin-top:0px; line-height:35px; background: transparent;}
+    .share-story li a{background: none repeat scroll 0 0 transparent;}
+    .share-story li:first-child{border:none !important;}
+
     ul.share-story li{margin:0px;}
     .share-story-container{margin: 0px 0px; -15px;}
-    .pull-right.share-story-container a{padding:0px 3px;}
+    .pull-right.share-story-container a{padding:0px 29px;}
 
     #footer p{font-size:9px;}
     #google_translate_element{padding:0px 20px 0px;}
@@ -1266,6 +1270,7 @@ div#content{
         padding-left:0px;
         padding-right:0px;
     }
+    /* JUNE162015 UPDATES */
 
     .header-search form{
         position: absolute;
@@ -1393,3 +1398,8 @@ div#content{
     margin-left:20px;
 }
 .FollowByEmail .follow-by-email-inner .follow-by-email-address{margin-top:8px;}
+
+/* JUNE162015 UPDATES */
+.read-more{margin-top: 0px !important;}
+.share-story{text-align:center; margin-bottom:20px !important;}
+/* JUNE162015 UPDATES */
