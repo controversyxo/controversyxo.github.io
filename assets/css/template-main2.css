@@ -1414,6 +1414,9 @@ div#content{
     right: 0;
 }
 
+.language-selector img.language-flag {
+    width: 30px;
+}
 
 .language-selector .nav, .language-selector .dropdown-menu {
     margin: 0;
