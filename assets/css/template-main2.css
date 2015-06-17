@@ -1403,3 +1403,46 @@ div#content{
 .read-more{margin-top: 0px !important;}
 .share-story{text-align:center; margin-bottom:20px !important;}
 /* JUNE162015 UPDATES */
+
+
+
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit { width: initial; }
+
+.language-selector {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+}
+
+
+.language-selector .nav, .language-selector .dropdown-menu {
+    margin: 0;
+    min-width: 100%;
+}
+
+.language-selector .dropdown-menu {
+    background-color: #474747;
+    color: #f46b2e;
+}
+
+.language-selector .nav > .dropdown.open>a, .language-selector .nav > .dropdown.open>a:hover, .language-selector .nav > .dropdown.open>a:focus,
+.language-selector .nav > .dropdown>a:hover, .language-selector .nav > .dropdown>a:focus{
+    background-color: #f46b2e;
+    color: #fff;
+}
+
+.language-selector .dropdown-menu > li > a {
+    padding: 10px;
+    color: #fff;
+}
+
+.language-selector .nav > li > a {
+    text-transform: none;
+    padding: 10px;
+    color: #860d0d; /*#f46b2e rgba(255,255,255,0.3);*/
+}
+
+.header-social{display:table !important;}
+.header-social .social-icons { text-align: left !important; }
+
+.site-header .navbar .row { position: relative; }
