@@ -151,4 +151,26 @@ function social_share(a) {
     window.open(a, "fbshare", "height=450,width=760,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0")
 }
 
+/* another block */
+
+function processTranslationLinks() {
+    var langs = ['en', 'pt', 'es'];
+    for(var i=0; i<langs.length; i++){
+        var lang = langs[i];
+        var selector = $('#lang-selector-' + lang);
+        if(selector.length === 1) {
+            var transLink = $('.translation-link-' + lang);
+            if(transLink.length === 1) {
+                var href = transLink.attr('href');
+                if(!href){
+                    href = transLink.data('href');
+                }
+                if(href) {
+                    selector.attr('href', href);
+                }
+            }
+        }
+    }
+}
+
 $('.go-top').click(function(){$('.st-content').animate({scrollTop:0},'slow');$('html, body').animate({scrollTop:0},'slow');return false;});
