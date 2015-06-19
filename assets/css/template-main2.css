@@ -1243,8 +1243,6 @@ div#content{
 
 /* JUNE162015 UPDATES */
 @media (max-width: 767px) {
-
-
     .share-story{text-align:center;}
     .share-story li{display:inline;border:none; margin-top:0px; line-height:35px; background: transparent;}
     .share-story li a{background: none repeat scroll 0 0 transparent;}
@@ -1289,6 +1287,12 @@ div#content{
     .camera_caption a {
         font:bold 18px Arial;}
 
+    @media (max-width: 767px) {
+        .logo_image {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+    }
 }
 
 .navbar-default .navbar-nav > li > a{
