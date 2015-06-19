@@ -1398,15 +1398,12 @@ div#content{
     margin-left:20px;
 }
 .FollowByEmail .follow-by-email-inner .follow-by-email-address{margin-top:8px;}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit { width: initial !important; }
 
 /* JUNE162015 UPDATES */
 .read-more{margin-top: 0px !important;}
 .share-story{text-align:center; margin-bottom:20px !important;}
 /* JUNE162015 UPDATES */
-
-
-
-.FollowByEmail .follow-by-email-inner .follow-by-email-submit { width: initial; }
 
 .language-selector {
     position: absolute;
