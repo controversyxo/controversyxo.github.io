@@ -154,7 +154,7 @@ function social_share(a) {
 /* another block */
 
 function processTranslationLinks() {
-    var langs = ['en', 'pt', 'es'];
+    var langs = ['en', 'pt', 'es', 'tl'];
     for(var i=0; i<langs.length; i++){
         var lang = langs[i];
         var selector = $('#lang-selector-' + lang);
