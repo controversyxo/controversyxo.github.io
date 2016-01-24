@@ -64,7 +64,7 @@ textarea{overflow:auto;vertical-align:top}
 .row:before,.row:after{display:table;content:"";line-height:0}
 .row:after{clear:both}
 [class*="span"]{float:left;min-height:1px;margin-left:20px}
-.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:940px}
+.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:991px} /* adsense size update : default 940px */
 .span12{width:940px}
 .span11{width:860px}
 .span10{width:780px}
@@ -648,7 +648,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .container:before,.container:after{display:table;content:"";line-height:0}
 .container:after{clear:both}
 
-#side-bar{width:360px;margin-left:30px}
+#side-bar{width:336px;margin-left:30px} /* adsense size update : default 360px; */
 #content-wrapper{margin-bottom:50px;padding-top:0px;}
 .post{display:block;margin-top: 55px;margin-bottom:30px;background-color: #FFFFFF;
     -moz-border-radius: 1px 1px 1px 1px;
