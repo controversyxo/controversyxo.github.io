@@ -648,7 +648,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .container:before,.container:after{display:table;content:"";line-height:0}
 .container:after{clear:both}
 
-#side-bar{width:336px !important;margin-left:15px} /* adsense size update : default 360px; */
+#side-bar{width:336px;margin-left:15px} /* adsense size update : default 360px; */
 #content-wrapper{margin-bottom:50px;padding-top:0px;}
 .post{display:block;margin-top: 55px;margin-bottom:30px;background-color: #FFFFFF;
     -moz-border-radius: 1px 1px 1px 1px;

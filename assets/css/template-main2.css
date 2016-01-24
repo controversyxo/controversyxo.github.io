@@ -1460,3 +1460,7 @@ div#content{
 #HTML5 .widget-content{
     margin:0 !important;
 }
+
+#content-wrapper .container{
+    width:991px;
+}
