@@ -1451,3 +1451,12 @@ div#content{
 .header-social .social-icons { text-align: left !important; }
 
 .site-header .navbar .row { position: relative; }
+
+
+#HTML3 .widget-content{
+    margin:0 !important;
+}
+
+#HTML5 .widget-content{
+    margin:0 !important;
+}
